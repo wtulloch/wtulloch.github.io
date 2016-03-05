@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The (Southern) Summer Project"
-date:   2014-02-01 21:22:52 +1100
+date:   2016-02-01 21:22:52 +1100
 comments: true
 categories: ASP.NET Web
 ---
@@ -9,7 +9,7 @@ categories: ASP.NET Web
 Now that ASP.NET 5 is close to release I thought this would be a good time to really take it for a run.
 Rather than create something from scratch I have decided to take an existing production application and see what it would take to convert it to ASP.NET 5.
 
-The existing application was written nearly three years ago as a SPA on top of ASP.NET 4.0. The key technologies that make up the application (both server-side and client) are:
+The original application was written nearly three years ago as a SPA on top of ASP.NET 4.0. The key technologies that make up the application (both server-side and client) are:
     - ASP.NET MVC
     - ASP.NET Web Api 1.0
     - AngularJS 1.2.?
@@ -37,6 +37,7 @@ Given how client-side libraries in particular are evolving I can see that this i
 My rough plan is as follows:
 - Learn how to use Bower to pull in all of the client-side dependencies while maintaining the existing script folder structure.
 - Incorporating Gulp and Grunt
+- Managing configuration
 - Convert all the existing custom javscript files to Typescript (this is just an excuse to learn Typescript).
 - Update to Entity Framework 7
 - Update the Restful services
