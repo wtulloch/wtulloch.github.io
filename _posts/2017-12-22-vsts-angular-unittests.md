@@ -63,6 +63,7 @@ Back in the karma.config.js modify or add the jUnitReporter configuration as fol
     }
 ```
 Then the VSTS build definition add a new Publish Test Results task and complete it has in the screenshot below.
+
 ![Junit publish test results]({{"/assets/publish-ng-test-results.png"| absolute_url}})
 
 
