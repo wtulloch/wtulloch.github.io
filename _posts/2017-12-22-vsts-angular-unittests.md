@@ -51,6 +51,19 @@ Now on VSTS, in the build definition (and this assumes you already have a comman
 
 ![sample ng test task]({{"/assets/ng-test-task.png" | absolute_url}})
 
+Done! angular unit tests are now running successfully in VSTS.
+
+The final piece is to publish the test results.
+
+Back in the karma.config.js modify or add the jUnitReporter configuration as follows:
+```JavaScript
+ junitReporter:{
+      outputDir: '',
+      outputFile: 'test-client.xml'
+    }
+```
+Then the VSTS build definition add a new Publish Test Results task and complete it has in the screenshot below.
+[Junit publish test results]({{"/assets/publish-ng-test-results.png"| absolute_url}})
 
 
 
