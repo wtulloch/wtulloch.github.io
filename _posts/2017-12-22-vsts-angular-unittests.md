@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Running Angular unit tests in VSTS-Phantomjs is dead to me"
+title:  "Running Angular unit tests in VSTS - PhantomJs is dead to me"
 date:   2017-12-22 10:22:52 +1100
 comments: true
 categories: VSTS, Angular, Unit Tests
 ---
 
-# Running Angular unit tests in VSTS - PhantomJs is dead to me
+
 ## Background
 A current project I am working on is a hybrid Angular 4 and Asp.NET core 2.0 web application. 
 CI has been set up on Visual Studio Team Services (VSTS) and as part of the build we wanted to run the Angular unit tests (logical really). 
