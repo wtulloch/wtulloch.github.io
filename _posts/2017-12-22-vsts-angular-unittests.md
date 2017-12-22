@@ -49,7 +49,7 @@ At this point it should all work.
 
 Now on VSTS, in the build definition (and this assumes you already have a command to run npm install) add a new command line task.
 
-![sample ng test task]({{"/assets/ng-test-task.png | absolute_url}})
+![sample ng test task]({{"/assets/ng-test-task.png" | absolute_url}})
 
 
 
