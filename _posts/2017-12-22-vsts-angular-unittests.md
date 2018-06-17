@@ -3,7 +3,7 @@ layout: post
 title:  "Running Angular unit tests in VSTS - PhantomJs is dead to me"
 date:   2017-12-22 10:22:52 +1100
 comments: true
-categories: VSTS, Angular, Unit Tests
+categories: VSTS Angular Unit-Tests
 ---
 
 

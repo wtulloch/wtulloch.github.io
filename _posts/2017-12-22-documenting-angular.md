@@ -5,6 +5,7 @@ date:   2017-12-22 18:22:52 +1100
 comments: true
 categories: Angular
 ---
+
 ## So sue me
 Okay so I am probably a bit a late to the party but just found this library for documenting Angular projects called [Compodoc](https://compodoc.github.io/compodoc/).
 
